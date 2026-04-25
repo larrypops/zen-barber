@@ -6,21 +6,21 @@ const videos = [
     label: 'Transformation',
     duration: '0:15',
     src: '/images/video-1.mp4',
-    poster: '/images/photo-Samuel-Etoo.jpg',
+    poster: '/images/video-1-poster.jpg',
   },
   {
     id: 2,
     label: 'Fade Detail',
     duration: '0:22',
     src: '/images/video-2.mp4',
-    poster: '/images/photo-Andre-Onana.jpg',
+    poster: '/images/video-2-poster.jpg',
   },
   {
     id: 3,
     label: 'VIP Session',
     duration: '0:30',
     src: '/images/video-3.mp4',
-    poster: '/images/photo-Francis-Nganou.jpg',
+    poster: '/images/video-3-poster.jpg',
   },
 ];
 
