@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative flex min-h-[100svh] items-center overflow-hidden bg-bg pt-20">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 z-10 bg-gradient-to-r from-bg via-bg/80 to-transparent" />
-        <img src="/images/photo-Samuel-Etoo.jpg" alt="Zen Barber" className="h-full w-full scale-110 object-cover grayscale opacity-30" />
+        <img src="/images/photo-Samuel-Etoo.jpg" alt="Zen Barber" className="h-full w-full scale-110 object-cover opacity-45" />
       </div>
 
       <div className="relative z-20 mx-auto w-full max-w-7xl px-6">

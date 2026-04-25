@@ -50,7 +50,7 @@ export default function Highlights() {
               <img
                 src={item.img}
                 alt={item.title}
-                className="h-full w-full object-cover grayscale opacity-60 transition-all duration-700 group-hover:scale-105 group-hover:opacity-100 group-hover:grayscale-0"
+                className="h-full w-full object-cover opacity-75 transition-all duration-700 group-hover:scale-105 group-hover:opacity-100"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-fg to-transparent opacity-60" />
 

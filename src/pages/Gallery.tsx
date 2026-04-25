@@ -103,7 +103,7 @@ export default function Gallery() {
                   <img
                     src={item.src}
                     alt={item.title}
-                    className="h-full w-full object-cover grayscale opacity-80 transition-all duration-700 group-hover:scale-110 group-hover:opacity-100 group-hover:grayscale-0"
+                    className="h-full w-full object-cover opacity-90 transition-all duration-700 group-hover:scale-110 group-hover:opacity-100"
                   />
                 )}
 

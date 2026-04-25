@@ -47,7 +47,7 @@ export default function About() {
                 <img
                   src="/images/photo-Samuel-Etoo-2.jpg"
                   alt="Expertise Zen Barber"
-                  className="h-full w-full object-cover grayscale transition-all duration-1000 group-hover:scale-110 group-hover:grayscale-0"
+                  className="h-full w-full object-cover transition-all duration-1000 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-fg via-transparent to-transparent opacity-40" />
 

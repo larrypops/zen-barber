@@ -57,7 +57,7 @@ export default function SocialProof() {
                   { name: 'Murielle Blanche Nbienou', img: '/images/photo-Murielle-Blanche-Nbienou.jpg' },
                 ].map((vip) => (
                   <div key={vip.name} className="h-14 w-14 overflow-hidden rounded-full border-4 border-white bg-fg/5 ring-1 ring-fg/5">
-                    <img src={vip.img} alt={vip.name} className="h-full w-full object-cover grayscale" />
+                    <img src={vip.img} alt={vip.name} className="h-full w-full object-cover" />
                   </div>
                 ))}
               </div>
