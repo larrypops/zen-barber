@@ -10,7 +10,7 @@ const links = [
   { name: 'Accueil', path: '/' },
   { name: 'Galerie', path: '/galerie' },
   { name: "L'Histoire", path: '/a-propos' },
-  { name: 'Reservation', path: '/contact' },
+  { name: 'Réservation', path: '/contact' },
 ];
 
 export default function Navbar() {
@@ -96,7 +96,7 @@ export default function Navbar() {
               href="/contact"
               className="hidden rounded-full bg-fg px-6 py-2.5 text-[10px] font-black uppercase tracking-widest text-bg transition-all hover:scale-105 hover:bg-accent md:block"
             >
-              Reserver
+              Réserver
             </Link>
             <button onClick={() => setIsOpen(!isOpen)} className="p-2 text-fg md:hidden" aria-label="Ouvrir le menu">
               {isOpen ? <X size={24} /> : <Menu size={24} />}

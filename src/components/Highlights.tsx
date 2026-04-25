@@ -2,9 +2,9 @@ import { motion } from 'motion/react';
 
 const highlights = [
   { id: 1, title: 'Elite Grooming', subtitle: 'Artistes & Talents', img: '/images/photo-Samuel-Etoo.jpg' },
-  { id: 2, title: 'Precision', subtitle: 'Details & Finitions', img: '/images/photo-Andre-Onana.jpg' },
+  { id: 2, title: 'Précision', subtitle: 'Détails & Finitions', img: '/images/photo-Andre-Onana.jpg' },
   { id: 3, title: "L'Art du Style", subtitle: 'Tendances Actuelles', img: '/images/photo-Francis-Nganou.jpg' },
-  { id: 4, title: 'Le Studio', subtitle: 'Yaounde Dragage', img: '/images/photo-Murielle-Blanche-Nbienou.jpg' },
+  { id: 4, title: 'Le Studio', subtitle: 'Yaoundé Dragage', img: '/images/photo-Murielle-Blanche-Nbienou.jpg' },
 ];
 
 export default function Highlights() {
@@ -19,7 +19,7 @@ export default function Highlights() {
             </h2>
           </div>
           <p className="max-w-sm text-lg font-light leading-snug text-bg/40">
-            Decouvrez l&apos;esthetique Zen Barber a travers une selection de nos creations les plus marquantes.
+            Découvrez l&apos;esthétique Zen Barber à travers une sélection de nos créations les plus marquantes.
           </p>
         </div>
 

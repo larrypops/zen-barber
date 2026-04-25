@@ -24,7 +24,7 @@ export default function Home() {
         <div className="animate-marquee flex items-center whitespace-nowrap">
           {[1, 2, 3, 4].map((i) => (
             <div key={i} className="mr-24 flex items-center gap-24">
-              <span className="font-display text-4xl font-black italic uppercase tracking-tighter text-bg md:text-7xl">YAOUNDE • DRAGAGE</span>
+              <span className="font-display text-4xl font-black italic uppercase tracking-tighter text-bg md:text-7xl">YAOUNDÉ • DRAGAGE</span>
               <span className="font-display text-4xl font-black italic uppercase tracking-tighter text-bg/10 md:text-7xl">
                 PREMIUM GROOMING
               </span>

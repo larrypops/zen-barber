@@ -44,7 +44,7 @@ export default function SocialProof() {
               <span className="text-accent underline decoration-fg/10 underline-offset-8">GROOMING</span> AU CAMEROUN.
             </h2>
             <p className="max-w-lg text-xl font-light leading-snug text-fg/40">
-              Une reputation forgee par la rigueur et une vision artistique du style masculin. Zen Barber est le choix de ceux qui ne
+              Une réputation forgée par la rigueur et une vision artistique du style masculin. Zen Barber est le choix de ceux qui ne
               laissent rien au hasard.
             </p>
 
@@ -52,7 +52,7 @@ export default function SocialProof() {
               <div className="flex -space-x-4">
                 {[
                   { name: "Samuel Eto'o", img: '/images/photo-Samuel-Etoo.jpg' },
-                  { name: 'Andre Onana', img: '/images/photo-Andre-Onana.jpg' },
+                  { name: 'André Onana', img: '/images/photo-Andre-Onana.jpg' },
                   { name: 'Francis Ngannou', img: '/images/photo-Francis-Nganou.jpg' },
                   { name: 'Murielle Blanche Nbienou', img: '/images/photo-Murielle-Blanche-Nbienou.jpg' },
                 ].map((vip) => (
@@ -73,17 +73,17 @@ export default function SocialProof() {
               <span className="font-display text-5xl font-black italic tracking-tighter text-fg md:text-7xl">
                 +<Counter value={79} duration={2} />K
               </span>
-              <span className="mt-4 text-[10px] font-bold uppercase tracking-[0.4em] text-fg/30">Abonnes</span>
+              <span className="mt-4 text-[10px] font-bold uppercase tracking-[0.4em] text-fg/30">Abonnés</span>
             </div>
             <div className="flex flex-col justify-center bg-white p-12">
               <span className="font-display text-5xl font-black italic tracking-tighter text-fg md:text-7xl">100%</span>
-              <span className="mt-4 text-[10px] font-bold uppercase tracking-[0.4em] text-fg/30">Qualite</span>
+              <span className="mt-4 text-[10px] font-bold uppercase tracking-[0.4em] text-fg/30">Qualité</span>
             </div>
             <div className="col-span-2 flex flex-col justify-center bg-white p-12">
               <div className="flex items-center gap-6">
                 <span className="font-display text-5xl font-black italic tracking-tighter text-accent md:text-7xl">YAO</span>
                 <div className="h-[1px] flex-grow bg-fg/5" />
-                <span className="text-right text-[10px] font-black uppercase tracking-widest text-fg/40">Base a Dragage, Yaounde</span>
+                <span className="text-right text-[10px] font-black uppercase tracking-widest text-fg/40">Basé à Dragage, Yaoundé</span>
               </div>
             </div>
           </div>

@@ -29,9 +29,9 @@ export default function VideoGallery() {
     <section className="bg-[#0a0a0a] px-6 py-32 sm:px-12">
       <div className="mx-auto max-w-7xl">
         <div className="mb-20 text-center">
-          <h2 className="mb-6 font-display text-4xl font-black italic uppercase tracking-tighter md:text-6xl">Regarde le resultat</h2>
+          <h2 className="mb-6 font-display text-4xl font-black italic uppercase tracking-tighter md:text-6xl">Regarde le résultat</h2>
           <p className="mx-auto max-w-xl font-light text-white/40">
-            Vois la precision du travail et la qualite des finitions a travers nos transformations reelles filmees directement au salon.
+            Vois la précision du travail et la qualité des finitions à travers nos transformations réelles filmées directement au salon.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export default function VideoGallery() {
                 className="h-full w-full object-cover"
               >
                 <source src={vid.src} type="video/mp4" />
-                Votre navigateur ne prend pas en charge cette video.
+                Votre navigateur ne prend pas en charge cette vidéo.
               </video>
 
               <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-transparent to-transparent p-6">

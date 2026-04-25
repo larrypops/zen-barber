@@ -16,7 +16,7 @@ export default function Contact() {
             </h1>
           </div>
           <p className="max-w-sm text-lg font-light leading-snug text-fg/40">
-            Un service exclusif pour des clients exigeants. Reserve ta place dans l&apos;agenda de l&apos;excellence.
+            Un service exclusif pour des clients exigeants. Réserve ta place dans l&apos;agenda de l&apos;excellence.
           </p>
         </div>
 
@@ -28,9 +28,9 @@ export default function Contact() {
               </div>
               <span className="mb-4 block text-[10px] font-black uppercase tracking-widest text-fg/20">Localisation</span>
               <h3 className="mb-4 font-display text-3xl font-black italic uppercase leading-none tracking-tighter text-fg">
-                Yaounde <br /> Dragage
+                Yaoundé <br /> Dragage
               </h3>
-              <p className="text-xs font-medium uppercase tracking-tight text-fg/40">A cote du club Camtel</p>
+              <p className="text-xs font-medium uppercase tracking-tight text-fg/40">À côté du club Camtel</p>
             </div>
 
             <div className="group rounded-[2.5rem] border border-fg/5 bg-fg/5 p-12 transition-all duration-500 hover:border-accent">

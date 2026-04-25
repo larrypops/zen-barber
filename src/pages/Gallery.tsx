@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Play, ArrowUpRight } from 'lucide-react';
 
-const categories = ['Tout', 'Coupes Modernes', 'VIP', 'Avant / Apres', 'Salon'];
+const categories = ['Tout', 'Coupes Modernes', 'VIP', 'Avant / Après', 'Salon'];
 
 type MediaItem = {
   id: number;
@@ -21,7 +21,7 @@ const mediaItems: MediaItem[] = [
   {
     id: 3,
     type: 'video',
-    category: 'Avant / Apres',
+    category: 'Avant / Après',
     src: '/images/video-1.mp4',
     poster: '/images/video-1-poster.jpg',
     title: 'Transformation',
@@ -40,7 +40,7 @@ const mediaItems: MediaItem[] = [
   {
     id: 8,
     type: 'video',
-    category: 'Avant / Apres',
+    category: 'Avant / Après',
     src: '/images/video-3.mp4',
     poster: '/images/video-3-poster.jpg',
     title: 'Fresh Look',
@@ -60,7 +60,7 @@ export default function Gallery() {
             <span className="mb-4 block text-[10px] font-black uppercase tracking-[0.5em] text-accent">Visual Archive</span>
             <h1 className="font-display text-5xl font-black italic uppercase leading-[0.9] tracking-tighter text-fg md:text-8xl">
               L&apos;ART DU <br />
-              <span className="text-fg/20">MEDIA.</span>
+              <span className="text-fg/20">MÉDIA.</span>
             </h1>
           </div>
           <div className="flex-shrink-0">
@@ -97,7 +97,7 @@ export default function Gallery() {
                 {item.type === 'video' ? (
                   <video controls playsInline preload="metadata" poster={item.poster} className="h-full w-full object-cover">
                     <source src={item.src} type="video/mp4" />
-                    Votre navigateur ne prend pas en charge cette video.
+                    Votre navigateur ne prend pas en charge cette vidéo.
                   </video>
                 ) : (
                   <img

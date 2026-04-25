@@ -25,7 +25,7 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="inline-block"
               >
-                DEFINIS TON
+                DÉFINIS TON
               </motion.span>{' '}
               <br />
               <motion.span
@@ -34,7 +34,7 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="inline-block bg-gradient-to-r from-fg to-accent bg-clip-text text-transparent"
               >
-                IDENTITE
+                IDENTITÉ
               </motion.span>
               .
             </h1>
@@ -45,7 +45,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="mb-12 max-w-xl text-balance text-lg font-light leading-relaxed text-fg/60 md:text-xl"
             >
-              Zen Barber a Yaounde • Dragage. Plus qu&apos;une coupe, une transformation radicale de votre image par l&apos;un des
+              Zen Barber à Yaoundé • Dragage. Plus qu&apos;une coupe, une transformation radicale de votre image par l&apos;un des
               barbers les plus influents du Cameroun.
             </motion.p>
 
@@ -54,7 +54,7 @@ export default function Hero() {
                 href="/contact"
                 className="group flex w-full items-center justify-center gap-4 rounded-2xl bg-fg px-10 py-5 text-xs font-black uppercase tracking-widest text-bg transition-all hover:scale-105 hover:bg-accent active:scale-95 sm:w-auto"
               >
-                Reserver ma Session <ArrowRight size={18} className="transition-transform group-hover:translate-x-2" />
+                Réserver ma Session <ArrowRight size={18} className="transition-transform group-hover:translate-x-2" />
               </Link>
 
               <Link

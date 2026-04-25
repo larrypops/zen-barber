@@ -6,9 +6,9 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Zen Barber | Yaounde Dragage',
+  title: 'Zen Barber | Yaoundé Dragage',
   description:
-    "Zen Barber, le standard du grooming masculin a Yaounde. Coupes signature, service VIP et transformations premium.",
+    'Zen Barber, le standard du grooming masculin à Yaoundé. Coupes signature, service VIP et transformations premium.',
   icons: {
     icon: '/images/logo.png',
     shortcut: '/images/logo.png',

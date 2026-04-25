@@ -14,7 +14,7 @@ export default function Footer() {
               </h2>
             </div>
             <p className="max-w-sm text-lg font-light leading-snug text-fg/40">
-              Le standard du grooming masculin au Cameroun. Precision technique, identite visuelle, excellence.
+              Le standard du grooming masculin au Cameroun. Précision technique, identité visuelle, excellence.
             </p>
             <div className="mt-12 flex gap-4">
               <a
@@ -71,7 +71,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className="mb-2 block text-[8px] font-bold uppercase tracking-widest text-fg/20">Location</span>
-                <p className="font-display text-xl font-black italic uppercase leading-none tracking-tighter text-fg">Yaounde • Dragage</p>
+                <p className="font-display text-xl font-black italic uppercase leading-none tracking-tighter text-fg">Yaoundé • Dragage</p>
               </li>
               <li>
                 <a

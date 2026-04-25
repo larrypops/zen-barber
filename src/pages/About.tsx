@@ -9,14 +9,14 @@ export default function About() {
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="mb-32 grid grid-cols-1 items-start gap-24 lg:grid-cols-2">
           <div className="sticky top-40">
-            <span className="mb-6 block text-[10px] font-black uppercase tracking-[0.5em] text-accent">L&apos;Heritage Zen Barber</span>
+            <span className="mb-6 block text-[10px] font-black uppercase tracking-[0.5em] text-accent">L&apos;Héritage Zen Barber</span>
             <h1 className="mb-12 font-display text-5xl font-black italic uppercase leading-[0.9] tracking-tighter text-fg md:text-8xl">
-              BATIR UNE <br />
-              <span className="text-fg/20">IDENTITE.</span>
+              BÂTIR UNE <br />
+              <span className="text-fg/20">IDENTITÉ.</span>
             </h1>
             <p className="mb-16 max-w-lg text-balance text-xl font-light leading-relaxed text-fg/40">
-              Plus qu&apos;un salon, Zen Barber est une institution du grooming a Yaounde. Nous ne coupons pas seulement des cheveux,
-              nous construisons des signatures visuelles pour l&apos;elite du Cameroun.
+              Plus qu&apos;un salon, Zen Barber est une institution du grooming à Yaoundé. Nous ne coupons pas seulement des cheveux,
+              nous construisons des signatures visuelles pour l&apos;élite du Cameroun.
             </p>
 
             <div className="flex flex-col gap-6">
@@ -26,7 +26,7 @@ export default function About() {
                 </div>
                 <h3 className="mb-4 font-display text-2xl font-black italic uppercase tracking-tighter text-fg">Notre Mission</h3>
                 <p className="text-sm font-medium leading-relaxed text-fg/40">
-                  Elever les standards du grooming africain par la precision technique et l&apos;innovation constante.
+                  Élever les standards du grooming africain par la précision technique et l&apos;innovation constante.
                 </p>
               </div>
               <div className="group rounded-[2.5rem] border border-fg/5 bg-fg/5 p-12 transition-all duration-500 hover:border-accent">
@@ -35,7 +35,7 @@ export default function About() {
                 </div>
                 <h3 className="mb-4 font-display text-2xl font-black italic uppercase tracking-tighter text-fg">Notre Vision</h3>
                 <p className="text-sm font-medium leading-relaxed text-fg/40">
-                  Chaque trait, chaque degrade est une signature. Nous definissons le style de demain, aujourd&apos;hui.
+                  Chaque trait, chaque dégradé est une signature. Nous définissons le style de demain, aujourd&apos;hui.
                 </p>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function About() {
 
             <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
               <div className="group aspect-square rounded-[2rem] bg-fg p-12 shadow-black/20 transition-all hover:shadow-2xl sm:aspect-auto sm:h-48">
-                <span className="text-[10px] font-black uppercase tracking-widest text-accent">Abonnes</span>
+                <span className="text-[10px] font-black uppercase tracking-widest text-accent">Abonnés</span>
                 <span className="font-display text-5xl font-black italic tracking-tighter text-bg">79K+</span>
               </div>
               <div className="aspect-square rounded-[2rem] border border-fg/5 p-12 transition-all hover:border-accent sm:aspect-auto sm:h-48">
@@ -70,7 +70,7 @@ export default function About() {
             </div>
 
             <div className="group mt-12 flex cursor-pointer items-center justify-between rounded-[2rem] bg-accent p-12 shadow-accent/20 transition-all hover:shadow-2xl">
-              <h4 className="font-display text-xl font-black italic uppercase tracking-tighter text-fg">Pret pour le changement ?</h4>
+              <h4 className="font-display text-xl font-black italic uppercase tracking-tighter text-fg">Prêt pour le changement ?</h4>
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-fg text-accent transition-transform group-hover:translate-x-2">
                 <ArrowRight size={20} />
               </div>
