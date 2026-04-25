@@ -34,7 +34,7 @@ function Counter({ value, suffix = '', duration = 2 }: { value: number; suffix?:
 
 export default function SocialProof() {
   return (
-    <section className="overflow-hidden bg-[#e9dbc7] px-6 py-40 sm:px-12">
+    <section className="overflow-hidden bg-white px-6 py-40 sm:px-12">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
@@ -56,7 +56,7 @@ export default function SocialProof() {
                   { name: 'Francis Ngannou', img: '/images/photo-Francis-Nganou.jpg' },
                   { name: 'Murielle Blanche Nbienou', img: '/images/photo-Murielle-Blanche-Nbienou.jpg' },
                 ].map((vip) => (
-                  <div key={vip.name} className="h-14 w-14 overflow-hidden rounded-full border-4 border-[#f7ecdb] bg-fg/5 ring-1 ring-fg/5">
+                  <div key={vip.name} className="h-14 w-14 overflow-hidden rounded-full border-4 border-white bg-fg/5 ring-1 ring-fg/5">
                     <img src={vip.img} alt={vip.name} className="h-full w-full object-cover grayscale" />
                   </div>
                 ))}
@@ -69,17 +69,17 @@ export default function SocialProof() {
           </motion.div>
 
           <div className="grid grid-cols-2 gap-px overflow-hidden rounded-[3rem] border border-fg/5 bg-fg/5 p-px">
-            <div className="flex flex-col justify-center bg-[#f7ecdb] p-12">
+            <div className="flex flex-col justify-center bg-white p-12">
               <span className="font-display text-5xl font-black italic tracking-tighter text-fg md:text-7xl">
                 +<Counter value={79} duration={2} />K
               </span>
               <span className="mt-4 text-[10px] font-bold uppercase tracking-[0.4em] text-fg/30">Abonnes</span>
             </div>
-            <div className="flex flex-col justify-center bg-[#f7ecdb] p-12">
+            <div className="flex flex-col justify-center bg-white p-12">
               <span className="font-display text-5xl font-black italic tracking-tighter text-fg md:text-7xl">100%</span>
               <span className="mt-4 text-[10px] font-bold uppercase tracking-[0.4em] text-fg/30">Qualite</span>
             </div>
-            <div className="col-span-2 flex flex-col justify-center bg-[#f7ecdb] p-12">
+            <div className="col-span-2 flex flex-col justify-center bg-white p-12">
               <div className="flex items-center gap-6">
                 <span className="font-display text-5xl font-black italic tracking-tighter text-accent md:text-7xl">YAO</span>
                 <div className="h-[1px] flex-grow bg-fg/5" />

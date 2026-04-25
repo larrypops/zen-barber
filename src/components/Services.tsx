@@ -33,7 +33,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="py-40 px-6 sm:px-12 bg-[#e9dbc7]">
+    <section className="py-40 px-6 sm:px-12 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-24 gap-12">
           <div className="max-w-2xl">
